@@ -49,7 +49,6 @@ export default function calendar(state = initialState, action) {
 				},
 			};
 		case SAVE_SCHEDULE:
-			console.log(action);
 			if (!state.schedule[action.id]) {
 				state.schedule[action.id] = [];
 			}
